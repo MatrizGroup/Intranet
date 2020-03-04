@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -185,101 +186,45 @@
                 <div class="col-md-3 col-sm-6 col-xs-12">
 					<div class="who">
                         <a href="https://drive.google.com/file/d/1OUytzleiFqq_9zdjs_kNPpi2oC7_ANB9/view" target="_blank"><img src="uploads/integracao.png" alt="icon" class="wow fadeInUp"></a>
-                        <h4>Conheça sua Empresa</h4> <section id="aniversariantes">
+                        <h4>Conheça sua Empresa</h4> 
                         <p class="lead"></p>
 					</div>
                 </div><!-- end col -->
             </div><!-- end how-its-work -->
         </div><!-- end container -->
-        </div><!-- end section -->
-</section>
-<br>
-<br>
-
-<div id="case" class="section wb">
-    <div class="container">
-        <div class="section-title text-center">
-            <small>Fevereiro de 2020</small>
-            <h3>Aniversariantes do Mês</h3>
-        </div><!-- end title -->
-
-        <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="service-item first-service">
-                    <img src="Fotos/EDINA.jpg">
-                    <h3><br>Edina</h3>
-                    <small>2 de Março</small>
-                    <smal><p>Matriz</p></smal>
-                </div>
-            </div>
-             <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="service-item second-service">
-                    <img src="Fotos/Monica.jpg">
-                    <h3><br>Monica</h3>
-                    <small>9 de Março</small>
-                    <smal><p>Matriz</p></smal>
-                </div>
-            </div>
-             <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="service-item third-service">
-                    <img src="Fotos/marcos qualidade.jpg">
-                    <h3><br>Marcos</h3>
-                    <small>22 de Março</small>
-                    <smal><p>Matriz</p></smal>
-                </div>
-            </div>
-             <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="service-item fourth-service">
-                    <img src="Fotos/luiz augusto mega.jpg">
-                    <h3><br>Luiz</h3>
-                    <small>23 de Março</small>
-                    <smal><p>Mega</p></smal>
-                </div>
-            </div>
-        </div>
-<br><br>
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item first-service">
-                        <img src="Fotos/DP/GABRIEL KB.jpg">
-                    <h3><br>Gabriel</h3>
-                    <small>25 de Março</small>
-                    <smal><p>Depósito Central</p></smal>
-                    </div>
-                </div>
-                 <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item third-service">
-                        <img src="Fotos/sem foto.jpg">
-                        <h3><br>Luis</h3>
-                        <small>27 de Março</small>
-                        <smal><p>Depósito Central</p></smal>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item third-service">
-                        <img src="Fotos/sem foto.jpg">
-                        <h3><br>Marcos</h3>
-                        <small>27 de Março</small>
-                        <smal><p>Depósito Central</p></smal>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-item third-service">
-                        <img src="Fotos/sem foto.jpg">
-                        <h3><br>Ygor</h3>
-                        <small>27 de Março</small>
-                        <smal><p>Depósito Central</p></smal>
-                    </div>
-                </div>
-            </div>
-                    </div><!-- end owl -->
-                </div><!-- end container -->
-            </div><!-- end section -->
+        </div><!-- end section --><section id="aniversariantes">
 </section>
 
+<!-- ANIVERSARIANTES -->
+<?php
+//echo date('F'), '' ,' essa é a data';
+if(date('F') == 'January'){ //ok
+include 'aniversariantes\janeiro.html';
+}else if(date('F') == 'February'){ //ok
+include 'aniversariantes\fevereiro.html';
+}else if(date('F') == 'March'){ //ok
+include 'aniversariantes\marco.html';
+}else if(date('F') == 'April'){ //ok
+include 'aniversariantes\abril.html';
+}else if(date('F') == 'May'){ //ok
+include 'aniversariantes\maio.html';
+}else if(date('F') == 'June'){ //ok
+include 'aniversariantes\junho.html';
+}else if(date('F') == 'July'){ //ok
+include 'aniversariantes\julho.html';
+}else if(date('F') == 'August'){ //ok
+include 'aniversariantes\agosto.html';
+}else if(date('F') == 'September'){ //ok
+include 'aniversariantes\setembro.html';
+}else if(date('F') == 'October'){ //ok
+include 'aniversariantes\outubro.html';
+}else if(date('F') == 'November'){ //ok
+include 'aniversariantes\novembro.html';
+}else if(date('F') == 'December'){ //ok
+include 'aniversariantes\dezembro.html';
+}
+?>
 <br>
-<br>
-
     <div class="section nopad cac text-center">
         <a></a><h3><section id="links"  class="pad-xl"></h3></a>
     </div>
